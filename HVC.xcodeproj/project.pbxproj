@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631B23BC1C6CBA28005FFF20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B23BB1C6CBA28005FFF20 /* AppDelegate.swift */; };
+		631B23BE1C6CBA28005FFF20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B23BD1C6CBA28005FFF20 /* ViewController.swift */; };
+		631B23C11C6CBA28005FFF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B23BF1C6CBA28005FFF20 /* Main.storyboard */; };
+		631B23C31C6CBA28005FFF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631B23C21C6CBA28005FFF20 /* Assets.xcassets */; };
+		631B23C61C6CBA28005FFF20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B23C41C6CBA28005FFF20 /* LaunchScreen.storyboard */; };
+		631B23D11C6CBA28005FFF20 /* HVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B23D01C6CBA28005FFF20 /* HVCTests.swift */; };
+		631B23DC1C6CBA29005FFF20 /* HVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B23DB1C6CBA29005FFF20 /* HVCUITests.swift */; };
+		631B23FA1C6CBC7F005FFF20 /* BleDeviceService.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B23EE1C6CBC7F005FFF20 /* BleDeviceService.m */; };
+		631B23FB1C6CBC7F005FFF20 /* HVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B23F01C6CBC7F005FFF20 /* HVC.m */; };
+		631B23FC1C6CBC7F005FFF20 /* HVC_BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B23F21C6CBC7F005FFF20 /* HVC_BLE.m */; };
+		631B23FD1C6CBC7F005FFF20 /* HVC_PRM.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B23F41C6CBC7F005FFF20 /* HVC_PRM.m */; };
+		631B23FE1C6CBC7F005FFF20 /* HVC_RES.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B23F61C6CBC7F005FFF20 /* HVC_RES.m */; };
+		631B23FF1C6CBC7F005FFF20 /* HVC_VER.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B23F81C6CBC7F005FFF20 /* HVC_VER.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631B23CD1C6CBA28005FFF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631B23B01C6CBA27005FFF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631B23B71C6CBA28005FFF20;
+			remoteInfo = HVC;
+		};
+		631B23D81C6CBA28005FFF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631B23B01C6CBA27005FFF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631B23B71C6CBA28005FFF20;
+			remoteInfo = HVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631B23B81C6CBA28005FFF20 /* HVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631B23BB1C6CBA28005FFF20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		631B23BD1C6CBA28005FFF20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		631B23C01C6CBA28005FFF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		631B23C21C6CBA28005FFF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631B23C51C6CBA28005FFF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		631B23C71C6CBA28005FFF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631B23CC1C6CBA28005FFF20 /* HVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631B23D01C6CBA28005FFF20 /* HVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVCTests.swift; sourceTree = "<group>"; };
+		631B23D21C6CBA28005FFF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631B23D71C6CBA28005FFF20 /* HVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631B23DB1C6CBA29005FFF20 /* HVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVCUITests.swift; sourceTree = "<group>"; };
+		631B23DD1C6CBA29005FFF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631B23ED1C6CBC7F005FFF20 /* BleDeviceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleDeviceService.h; sourceTree = "<group>"; };
+		631B23EE1C6CBC7F005FFF20 /* BleDeviceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleDeviceService.m; sourceTree = "<group>"; };
+		631B23EF1C6CBC7F005FFF20 /* HVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVC.h; sourceTree = "<group>"; };
+		631B23F01C6CBC7F005FFF20 /* HVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVC.m; sourceTree = "<group>"; };
+		631B23F11C6CBC7F005FFF20 /* HVC_BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVC_BLE.h; sourceTree = "<group>"; };
+		631B23F21C6CBC7F005FFF20 /* HVC_BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVC_BLE.m; sourceTree = "<group>"; };
+		631B23F31C6CBC7F005FFF20 /* HVC_PRM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVC_PRM.h; sourceTree = "<group>"; };
+		631B23F41C6CBC7F005FFF20 /* HVC_PRM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVC_PRM.m; sourceTree = "<group>"; };
+		631B23F51C6CBC7F005FFF20 /* HVC_RES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVC_RES.h; sourceTree = "<group>"; };
+		631B23F61C6CBC7F005FFF20 /* HVC_RES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVC_RES.m; sourceTree = "<group>"; };
+		631B23F71C6CBC7F005FFF20 /* HVC_VER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVC_VER.h; sourceTree = "<group>"; };
+		631B23F81C6CBC7F005FFF20 /* HVC_VER.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVC_VER.m; sourceTree = "<group>"; };
+		631B24001C6CC3C0005FFF20 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		631B24041C6FBB99005FFF20 /* HVCC_Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVCC_Define.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631B23B51C6CBA28005FFF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631B23C91C6CBA28005FFF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631B23D41C6CBA28005FFF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631B23AF1C6CBA27005FFF20 = {
+			isa = PBXGroup;
+			children = (
+				631B23BA1C6CBA28005FFF20 /* HVC */,
+				631B23CF1C6CBA28005FFF20 /* HVCTests */,
+				631B23DA1C6CBA29005FFF20 /* HVCUITests */,
+				631B23B91C6CBA28005FFF20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631B23B91C6CBA28005FFF20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631B23B81C6CBA28005FFF20 /* HVC.app */,
+				631B23CC1C6CBA28005FFF20 /* HVCTests.xctest */,
+				631B23D71C6CBA28005FFF20 /* HVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631B23BA1C6CBA28005FFF20 /* HVC */ = {
+			isa = PBXGroup;
+			children = (
+				631B24001C6CC3C0005FFF20 /* Bridging-Header.h */,
+				631B23EC1C6CBC7F005FFF20 /* SDK */,
+				631B23BB1C6CBA28005FFF20 /* AppDelegate.swift */,
+				631B23BD1C6CBA28005FFF20 /* ViewController.swift */,
+				631B23BF1C6CBA28005FFF20 /* Main.storyboard */,
+				631B23C21C6CBA28005FFF20 /* Assets.xcassets */,
+				631B23C41C6CBA28005FFF20 /* LaunchScreen.storyboard */,
+				631B23C71C6CBA28005FFF20 /* Info.plist */,
+			);
+			path = HVC;
+			sourceTree = "<group>";
+		};
+		631B23CF1C6CBA28005FFF20 /* HVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				631B23D01C6CBA28005FFF20 /* HVCTests.swift */,
+				631B23D21C6CBA28005FFF20 /* Info.plist */,
+			);
+			path = HVCTests;
+			sourceTree = "<group>";
+		};
+		631B23DA1C6CBA29005FFF20 /* HVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631B23DB1C6CBA29005FFF20 /* HVCUITests.swift */,
+				631B23DD1C6CBA29005FFF20 /* Info.plist */,
+			);
+			path = HVCUITests;
+			sourceTree = "<group>";
+		};
+		631B23EC1C6CBC7F005FFF20 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				631B24041C6FBB99005FFF20 /* HVCC_Define.h */,
+				631B23ED1C6CBC7F005FFF20 /* BleDeviceService.h */,
+				631B23EE1C6CBC7F005FFF20 /* BleDeviceService.m */,
+				631B23EF1C6CBC7F005FFF20 /* HVC.h */,
+				631B23F01C6CBC7F005FFF20 /* HVC.m */,
+				631B23F11C6CBC7F005FFF20 /* HVC_BLE.h */,
+				631B23F21C6CBC7F005FFF20 /* HVC_BLE.m */,
+				631B23F31C6CBC7F005FFF20 /* HVC_PRM.h */,
+				631B23F41C6CBC7F005FFF20 /* HVC_PRM.m */,
+				631B23F51C6CBC7F005FFF20 /* HVC_RES.h */,
+				631B23F61C6CBC7F005FFF20 /* HVC_RES.m */,
+				631B23F71C6CBC7F005FFF20 /* HVC_VER.h */,
+				631B23F81C6CBC7F005FFF20 /* HVC_VER.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631B23B71C6CBA28005FFF20 /* HVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631B23E01C6CBA29005FFF20 /* Build configuration list for PBXNativeTarget "HVC" */;
+			buildPhases = (
+				631B23B41C6CBA28005FFF20 /* Sources */,
+				631B23B51C6CBA28005FFF20 /* Frameworks */,
+				631B23B61C6CBA28005FFF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HVC;
+			productName = HVC;
+			productReference = 631B23B81C6CBA28005FFF20 /* HVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631B23CB1C6CBA28005FFF20 /* HVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631B23E31C6CBA29005FFF20 /* Build configuration list for PBXNativeTarget "HVCTests" */;
+			buildPhases = (
+				631B23C81C6CBA28005FFF20 /* Sources */,
+				631B23C91C6CBA28005FFF20 /* Frameworks */,
+				631B23CA1C6CBA28005FFF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631B23CE1C6CBA28005FFF20 /* PBXTargetDependency */,
+			);
+			name = HVCTests;
+			productName = HVCTests;
+			productReference = 631B23CC1C6CBA28005FFF20 /* HVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631B23D61C6CBA28005FFF20 /* HVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631B23E61C6CBA29005FFF20 /* Build configuration list for PBXNativeTarget "HVCUITests" */;
+			buildPhases = (
+				631B23D31C6CBA28005FFF20 /* Sources */,
+				631B23D41C6CBA28005FFF20 /* Frameworks */,
+				631B23D51C6CBA28005FFF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631B23D91C6CBA28005FFF20 /* PBXTargetDependency */,
+			);
+			name = HVCUITests;
+			productName = HVCUITests;
+			productReference = 631B23D71C6CBA28005FFF20 /* HVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631B23B01C6CBA27005FFF20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wataru;
+				TargetAttributes = {
+					631B23B71C6CBA28005FFF20 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					631B23CB1C6CBA28005FFF20 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 631B23B71C6CBA28005FFF20;
+					};
+					631B23D61C6CBA28005FFF20 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 631B23B71C6CBA28005FFF20;
+					};
+				};
+			};
+			buildConfigurationList = 631B23B31C6CBA27005FFF20 /* Build configuration list for PBXProject "HVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631B23AF1C6CBA27005FFF20;
+			productRefGroup = 631B23B91C6CBA28005FFF20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631B23B71C6CBA28005FFF20 /* HVC */,
+				631B23CB1C6CBA28005FFF20 /* HVCTests */,
+				631B23D61C6CBA28005FFF20 /* HVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631B23B61C6CBA28005FFF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631B23C61C6CBA28005FFF20 /* LaunchScreen.storyboard in Resources */,
+				631B23C31C6CBA28005FFF20 /* Assets.xcassets in Resources */,
+				631B23C11C6CBA28005FFF20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631B23CA1C6CBA28005FFF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631B23D51C6CBA28005FFF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631B23B41C6CBA28005FFF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631B23FA1C6CBC7F005FFF20 /* BleDeviceService.m in Sources */,
+				631B23FF1C6CBC7F005FFF20 /* HVC_VER.m in Sources */,
+				631B23FB1C6CBC7F005FFF20 /* HVC.m in Sources */,
+				631B23BE1C6CBA28005FFF20 /* ViewController.swift in Sources */,
+				631B23FD1C6CBC7F005FFF20 /* HVC_PRM.m in Sources */,
+				631B23FC1C6CBC7F005FFF20 /* HVC_BLE.m in Sources */,
+				631B23FE1C6CBC7F005FFF20 /* HVC_RES.m in Sources */,
+				631B23BC1C6CBA28005FFF20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631B23C81C6CBA28005FFF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631B23D11C6CBA28005FFF20 /* HVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631B23D31C6CBA28005FFF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631B23DC1C6CBA29005FFF20 /* HVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631B23CE1C6CBA28005FFF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631B23B71C6CBA28005FFF20 /* HVC */;
+			targetProxy = 631B23CD1C6CBA28005FFF20 /* PBXContainerItemProxy */;
+		};
+		631B23D91C6CBA28005FFF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631B23B71C6CBA28005FFF20 /* HVC */;
+			targetProxy = 631B23D81C6CBA28005FFF20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		631B23BF1C6CBA28005FFF20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631B23C01C6CBA28005FFF20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		631B23C41C6CBA28005FFF20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631B23C51C6CBA28005FFF20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631B23DE1C6CBA29005FFF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		631B23DF1C6CBA29005FFF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631B23E11C6CBA29005FFF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.HVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		631B23E21C6CBA29005FFF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.HVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		631B23E41C6CBA29005FFF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.HVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HVC.app/HVC";
+			};
+			name = Debug;
+		};
+		631B23E51C6CBA29005FFF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.HVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HVC.app/HVC";
+			};
+			name = Release;
+		};
+		631B23E71C6CBA29005FFF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.HVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HVC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		631B23E81C6CBA29005FFF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.HVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HVC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631B23B31C6CBA27005FFF20 /* Build configuration list for PBXProject "HVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631B23DE1C6CBA29005FFF20 /* Debug */,
+				631B23DF1C6CBA29005FFF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631B23E01C6CBA29005FFF20 /* Build configuration list for PBXNativeTarget "HVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631B23E11C6CBA29005FFF20 /* Debug */,
+				631B23E21C6CBA29005FFF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631B23E31C6CBA29005FFF20 /* Build configuration list for PBXNativeTarget "HVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631B23E41C6CBA29005FFF20 /* Debug */,
+				631B23E51C6CBA29005FFF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631B23E61C6CBA29005FFF20 /* Build configuration list for PBXNativeTarget "HVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631B23E71C6CBA29005FFF20 /* Debug */,
+				631B23E81C6CBA29005FFF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631B23B01C6CBA27005FFF20 /* Project object */;
+}

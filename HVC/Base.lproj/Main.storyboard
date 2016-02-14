@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HVC" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDg-b6-gg8">
+                                <rect key="frame" x="0.0" y="20" width="600" height="30"/>
+                                <state key="normal" title="connet"/>
+                                <connections>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bli-pK-nfd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9F7-Rg-qH0">
+                                <rect key="frame" x="0.0" y="58" width="600" height="30"/>
+                                <state key="normal" title="start"/>
+                                <connections>
+                                    <action selector="btnExecute_click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TZT-4A-Wxy"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ddL-qb-lPW">
+                                <rect key="frame" x="0.0" y="86" width="600" height="514"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ddL-qb-lPW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0kl-1j-i2H"/>
+                            <constraint firstItem="9F7-Rg-qH0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="11M-Sb-sUm"/>
+                            <constraint firstItem="ddL-qb-lPW" firstAttribute="top" secondItem="9F7-Rg-qH0" secondAttribute="bottom" constant="18" id="HEV-FL-4K3"/>
+                            <constraint firstItem="WDg-b6-gg8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="L2x-Fe-5GT"/>
+                            <constraint firstItem="ddL-qb-lPW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PfU-QT-FH7"/>
+                            <constraint firstItem="9F7-Rg-qH0" firstAttribute="top" secondItem="WDg-b6-gg8" secondAttribute="bottom" constant="8" id="RHa-vo-DCp"/>
+                            <constraint firstItem="9F7-Rg-qH0" firstAttribute="top" secondItem="WDg-b6-gg8" secondAttribute="bottom" constant="8" id="Ukl-Uf-13z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ddL-qb-lPW" secondAttribute="trailing" id="boe-QP-W8W"/>
+                            <constraint firstItem="WDg-b6-gg8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cUt-59-FwM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ddL-qb-lPW" secondAttribute="bottom" id="qzx-PB-v5s"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Result_Text_View" destination="ddL-qb-lPW" id="StZ-wH-nAZ"/>
+                        <outlet property="btnExecution" destination="9F7-Rg-qH0" id="iOk-SX-ll9"/>
+                        <outlet property="pushbutton" destination="WDg-b6-gg8" id="JkW-nL-XZM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="479"/>
+        </scene>
+    </scenes>
+</document>

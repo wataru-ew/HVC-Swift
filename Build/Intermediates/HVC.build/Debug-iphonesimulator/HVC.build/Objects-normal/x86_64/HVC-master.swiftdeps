@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "2fa191415b11e831674687afc2c79bfa"
+build_time: [508512449, 58053000]
+inputs:
+  "/Users/wataru/ht/HVC/HVC/AppDelegate.swift": !dirty [508509992, 0]
+  "/Users/wataru/ht/HVC/HVC/ViewController.swift": !dirty [508512448, 0]
